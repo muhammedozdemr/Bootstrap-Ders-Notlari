@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- meta name="viewport: Tarayıcılara web sayfasının boyutlandırma ve ölçeklendirilmesinin nasıl yapılacağına dair talimat vermektedir."-->
+    <!-- device-width:web sayfasının genişliğini bağlanılan cihazın ekran genişliğine eşitlemektedir. -->
+    <!-- initial-scale:Tarayıcı web sayfasını yüklediği zaman ilk yakınlaştırma seviyesini 1 olarak ayarlamaktadır. -->
+    <!-- shrink-to-fit=no: web sayfasını ekrana sığdrımak için küçültme yapılmasını önlemektedir.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <title>Bootstrap</title>
+    <style media="screen">
+    div[class*="bg-"]{
+    padding:20px;
+    
+    }
+        
+    </style>
+  </head>
+  <body>
+    <h2 class="text-center">Arkaplan ve Metin Renklendirme</h2>
+    <hr>
+    <!-- Arkaplan Renkleri -->
+    <div class="container">
+    <div class="bg-primary">.bg-primary</div>
+    <div class="bg-secondry">.bg-secondry</div>
+    <div class="bg-success">.bg-success</div>
+    <div class="bg-danger">.bg-danger</div>
+    <div class="bg-warning">.bg-warning</div>
+    <div class="bg-info">.bg-info</div>
+    <div class="bg-light">.bg-light</div>
+    <div class="bg-dark">.bg-dark</div>
+    <div class="bg-transparent">.bg-transparent</div>
+
+    <hr>
+    <!-- Metin Renklendirme  -->
+    <p class="text-primary">.text-primary</p>
+    <p class="text-secondary">.text-secondary</p>
+    <p class="text-success">.text-success</p>
+    <p class="text-danger">.text-danger</p>
+    <p class="text-warning">.text-warning</p>
+    <p class="text-info">.text-info</p>
+    <p class="text-light bg-dark">.text-light</p>
+    <p class="text-dark">.text-dark</p>
+    <p class="text-white bg-dark">.text-white</p>
+    <p class="text-muted">.text-muted</p>
+
+    <hr>
+    <!-- Metin Renklendirme Linklerde Kullanımı -->
+    <p><a href="#" class="text-primary">.text-primary</a></p>
+    <p><a href="#" class="text-secondary">.text-secondary</a></p>
+    <p><a href="#" class="text-success">.text-success</a></p>
+    <p><a href="#" class="text-danger">.text-danger</a></p>
+    <p><a href="#" class="text-warning">.text-warning</a></p>
+    <p><a href="#" class="text-info">.text-info</a></p>
+    <p><a href="#" class="text-light bg-dark">.text-light</a></p>
+    <p><a href="#" class="text-dark">.text-dark</a></p>
+    <p><a href="#" class="text-white bg-dark">.text-white</a></p>
+    <p><a href="#" class="text-muted">.text-muted</a></p>
+
+    <hr>
+    
+    
+    </div>
+    
+
+  </body>
+  </html>

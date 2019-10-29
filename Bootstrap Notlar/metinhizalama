@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- meta name="viewport: Tarayıcılara web sayfasının boyutlandırma ve ölçeklendirilmesinin nasıl yapılacağına dair talimat vermektedir."-->
+    <!-- device-width:web sayfasının genişliğini bağlanılan cihazın ekran genişliğine eşitlemektedir. -->
+    <!-- initial-scale:Tarayıcı web sayfasını yüklediği zaman ilk yakınlaştırma seviyesini 1 olarak ayarlamaktadır. -->
+    <!-- shrink-to-fit=no: web sayfasını ekrana sığdrımak için küçültme yapılmasını önlemektedir.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <title>Bootstrap</title>
+
+  </head>
+  <body>
+    <h2 class="text-center">Metin Hizalama</h2>
+    <hr>
+    
+    <div class="container">
+    <p class="justify-center">Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. </p>
+    
+    <hr>
+
+    <!-- Metin Hizalama -->
+    <p class="text-left">Metni sola hizalama</p>
+    <p class="text-center">Metni ortalama</p>
+    <p class="text-right">Metni sağa hizalama</p>
+
+    <hr>
+
+    <!-- Duyarlı (Responsive) Metin Hizalama -->
+    <p class="text-right text-sm-left">sm yada daha geniş ekranlarda sola yaslama</p>
+    <p class="text-right text-md-left">md yada daha geniş ekranlarda sola yaslama</p>
+    <p class="text-right text-lg-left">lg yada daha geniş ekranlarda sola yaslama</p>
+    <p class="text-right text-xl-left">xl yada daha geniş ekranlarda sola yaslama</p>
+
+    <hr>
+
+    <p class="text-sm-center">sm yada daha geniş ekranlarda ortalama</p>
+    <p class="text-md-center">md yada daha geniş ekranlarda ortalama</p>
+    <p class="text-lg-center">lg yada daha geniş ekranlarda ortalama</p>
+    <p class="text-xl-center">xl yada daha geniş ekranlarda ortalama</p>
+
+    <hr>
+
+    <p class="text-sm-right">sm yada daha geniş ekranlarda sağa yaslama</p>
+    <p class="text-md-right">md yada daha geniş ekranlarda sağa yaslama</p>
+    <p class="text-lg-right">lg yada daha geniş ekranlarda sağa yaslama</p>
+    <p class="text-xl-right">xl yada daha geniş ekranlarda sağa yaslama</p>
+
+    <hr>
+
+    <p class="text-sm-right text-md-center text-lg-left">
+    Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.    
+    </p>
+
+    
+    
+    </div>
+    
+
+  </body>
+  </html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- meta name="viewport: Tarayıcılara web sayfasının boyutlandırma ve ölçeklendirilmesinin nasıl yapılacağına dair talimat vermektedir."-->
+    <!-- device-width:web sayfasının genişliğini bağlanılan cihazın ekran genişliğine eşitlemektedir. -->
+    <!-- initial-scale:Tarayıcı web sayfasını yüklediği zaman ilk yakınlaştırma seviyesini 1 olarak ayarlamaktadır. -->
+    <!-- shrink-to-fit=no: web sayfasını ekrana sığdrımak için küçültme yapılmasını önlemektedir.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <title>Bootstrap</title>
+
+<style>
+
+    body{
+    text-align:center;
+}
+    .row{
+    height:8rem;
+    background-color:rgba(255,0,0,.1);
+    margin-bottom:2rem;
+}
+    div[class*="col"]{
+    background-color:rgba(86,61,124,.15);
+    border: 1px solid black;
+    padding:0.5rem;
+    
+}
+
+
+
+    </style> 
+</head>
+  <body>
+<h2>Yatay Hizalama</h2>
+<div class="container">
+    
+    <div class="row justify-content-start"><!-- Yatay hizalamada kolonları üste hizalamak için kullanılır. -->
+    <div class="col-3">justify-content-start</div>
+    <div class="col-3">justify-content-start</div>
+    <div class="col-3">justify-content-start</div>
+    </div>
+
+    <div class="row justify-content-center"><!-- Yatay hizalamada kolonları ortaya hizalamak için kullanılır. -->
+    <div class="col-3">justify-content-center</div>
+    <div class="col-3">justify-content-center</div>
+    <div class="col-3">justify-content-center</div>
+    </div>
+
+    <div class="row justify-content-end"><!-- Yatay hizalamada kolonları alta hizalamak için kullanılır. -->
+    <div class="col-3">justify-content-end</div>
+    <div class="col-3">justify-content-end</div>
+    <div class="col-3">justify-content-end</div>
+    </div>
+
+    <div class="row justify-content-around"><!-- Yatay hizalamada kolonları eşit bir şekilde dağıtmak için kullanılır. -->
+    <div class="col-3">justify-content-around</div>
+    <div class="col-3">justify-content-around</div>
+    <div class="col-3">justify-content-around</div>
+    </div>
+
+    <div class="row justify-content-between"><!-- Yatay hizalamada kolonları satıra eşit aralıklara sahip bir şekilde hizalamak için kullanılır. -->
+    <div class="col-3">justify-content-between</div>
+    <div class="col-3">justify-content-between</div>
+    <div class="col-3">justify-content-between</div>
+    </div>
+
+</div>
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script> <!--En üstte olması gerekir.-->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+

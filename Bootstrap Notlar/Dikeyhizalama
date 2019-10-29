@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- meta name="viewport: Tarayıcılara web sayfasının boyutlandırma ve ölçeklendirilmesinin nasıl yapılacağına dair talimat vermektedir."-->
+    <!-- device-width:web sayfasının genişliğini bağlanılan cihazın ekran genişliğine eşitlemektedir. -->
+    <!-- initial-scale:Tarayıcı web sayfasını yüklediği zaman ilk yakınlaştırma seviyesini 1 olarak ayarlamaktadır. -->
+    <!-- shrink-to-fit=no: web sayfasını ekrana sığdrımak için küçültme yapılmasını önlemektedir.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <title>Bootstrap</title>
+
+<style>
+
+    body{
+    text-align:center;
+}
+    .row{
+    height:8rem;
+    background-color:rgba(255,0,0,.1);
+    margin-bottom:2rem;
+}
+    div[class*="col"]{
+    background-color:rgba(86,61,124,.15);
+    border: 1px solid black;
+    padding:0.5rem;
+    
+    
+}
+
+
+
+    </style> 
+</head>
+  <body>
+    
+   <h2>Dikey Hizalama</h2>
+
+    <div class="container"> <!-- Ekranın sağından ve solundan 15px boşluk bırakır.-->
+    <div class="row align-items-start"><!-- Dikey hizalamada kolonları üste hizalamak için kullanılır. -->
+    <div class="col">align-items-start</div>
+    <div class="col">align-items-start</div>
+    <div class="col">align-items-start</div>
+    </div>
+
+
+    <div class="row align-items-center"><!-- Dikey hizalamada kolonları ortaya hizalamak için kullanılır. -->
+    <div class="col">align-items-center</div>
+    <div class="col">align-items-center</div>
+    <div class="col">align-items-center</div>
+    </div>
+
+    <div class="row align-items-end"><!-- Dikey hizalamada kolonları alta hizalamak için kullanılır. -->
+    <div class="col">align-items-end</div>
+    <div class="col">align-items-end</div>
+    <div class="col">align-items-end</div>
+    </div>
+
+
+   <div class="row">
+    <div class="col align-self-start">align-self-start</div>
+    <div class="col align-self-center">align-self-center</div>
+    <div class="col align-self-end">align-sself-end</div>
+    </div>
+  </div>
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script> <!--En üstte olması gerekir.-->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
