@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- meta name="viewport: Tarayıcılara web sayfasının boyutlandırma ve ölçeklendirilmesinin nasıl yapılacağına dair talimat vermektedir."-->
+    <!-- device-width:web sayfasının genişliğini bağlanılan cihazın ekran genişliğine eşitlemektedir. -->
+    <!-- initial-scale:Tarayıcı web sayfasını yüklediği zaman ilk yakınlaştırma seviyesini 1 olarak ayarlamaktadır. -->
+    <!-- shrink-to-fit=no: web sayfasını ekrana sığdrımak için küçültme yapılmasını önlemektedir.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <title>Başlangıç</title>
+    <style>
+    span{
+    height:75px;
+    width:75px;
+    background-color:whitesmoke;
+    display:inline-block;
+    }
+    span[class*="rounded"]{
+    background-color:orange;    
+    }    
+    </style>
+  </head>
+  <body>
+    <h1 class="text-center">Kenarlık></h1>
+    <hr>    
+    <div class="container">
+    
+
+    <!-- Kenarlık Ekleme -->
+    <span class="border"></span>
+    <span class="border-top"></span>
+    <span class="border-right"></span>
+    <span class="border-bottom"></span>
+    <span class="border-left"></span>
+
+    <hr>
+
+    <!-- Kenarlık Kaldırma -->
+
+    <span class="border-0"></span>
+    <span class="border-top-0"></span>
+    <span class="border-right-0"></span>
+    <span class="border-bottom-0"></span>
+    <span class="border-left-0"></span>
+
+    <hr>
+
+    <!-- Renkli Kenarlık Ekleme -->
+    
+    <span class="border border-primary"></span>
+    <span class="border border-secondary"></span>
+    <span class="border border-success"></span>
+    <span class="border border-danger"></span>
+    <span class="border border-warning"></span>
+    <span class="border border-info"></span>
+    <span class="border border-light"></span>
+    <span class="border border-dark"></span>
+    <span class="border border-white"></span>
+    
+    <hr>
+    <!-- Yuvarlak Kenarlık Ekleme -->
+
+    <span class="rounded"></span>
+    <span class="rounded-top"></span>
+    <span class="rounded-right"></span>
+    <span class="rounded-bottom"></span>
+    <span class="rounded-left"></span>
+    <span class="rounded-circle"></span>
+    <span class="rounded-0"></span>    
+    </div> 
+
+
+  </body>
+  </html>

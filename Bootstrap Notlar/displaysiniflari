@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- meta name="viewport: Tarayıcılara web sayfasının boyutlandırma ve ölçeklendirilmesinin nasıl yapılacağına dair talimat vermektedir."-->
+    <!-- device-width:web sayfasının genişliğini bağlanılan cihazın ekran genişliğine eşitlemektedir. -->
+    <!-- initial-scale:Tarayıcı web sayfasını yüklediği zaman ilk yakınlaştırma seviyesini 1 olarak ayarlamaktadır. -->
+    <!-- shrink-to-fit=no: web sayfasını ekrana sığdrımak için küçültme yapılmasını önlemektedir.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <title>Başlangıç</title>
+    
+  </head>
+  <body>
+    
+    <div class="container">
+    
+    <!-- Display inline -->
+    <div class="bg-warning p-2 d-inline">d-inline</div>
+    <div class="bg-warning p-2 d-inline">d-inline</div>
+
+    <hr>
+    
+    <!-- Display inline-block -->
+    <div class="bg-warning p-2 d-inline-block" style="width:200px;">d-inline-block</div>
+    <div class="bg-warning p-2 d-inline-block" style="width:200px;">d-inline-block</div>
+
+    <hr>
+
+    <!-- Display block -->
+
+    <span class="bg-warning p-2 d-block">d-block</span>
+    <span class="bg-warning p-2 d-block">d-block</span>
+    
+    <hr>
+    
+    <!-- Display none -->
+
+    <div class="bg-warning p-2 d-none">d-none</div> 
+
+    <hr>
+
+    <!-- Display print -->
+
+    <div class="bg-warning p-2 d-print-none">Sadece ekranda görülür. Yazıcıdan çıktı alırken görülmez.</div>
+    <div class="bg-warning p-2 d-none d-print-block">Sadece yazıcıdan çıktı alırken görülür.</div>
+
+    <hr>
+
+    <!-- Responsive Görüntüleme -->
+    
+    <div class="bg-warning p-2 d-none d-md-block d-lg-inline d-print-block">Ekran boyutuna duyarlı görüntüleme</div>
+       
+    </div>
+
+  </body>
+  </html>
