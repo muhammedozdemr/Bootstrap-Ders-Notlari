@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- meta name="viewport: Tarayıcılara web sayfasının boyutlandırma ve ölçeklendirilmesinin nasıl yapılacağına dair talimat vermektedir."-->
+    <!-- device-width:web sayfasının genişliğini bağlanılan cihazın ekran genişliğine eşitlemektedir. -->
+    <!-- initial-scale:Tarayıcı web sayfasını yüklediği zaman ilk yakınlaştırma seviyesini 1 olarak ayarlamaktadır. -->
+    <!-- shrink-to-fit=no: web sayfasını ekrana sığdrımak için küçültme yapılmasını önlemektedir.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <title>Metni Arkaplan Resmi İle Değiştirme</title>
+    
+  </head>
+  <body>
+   <h3 class="text-center">Metni Arkaplan Resmi İle Değiştirme</h3>
+   <hr>
+   <div class="container">
+	<!-- text-hide ile yazıyı gizler -->
+	<h1 class="text-hide" style="backgound-image:url('img/bootstrap.png'); width:100px; height:100px;">Bootstrap<h1>
+   </div>
+  </body>
+  </html>

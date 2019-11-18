@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- meta name="viewport: Tarayıcılara web sayfasının boyutlandırma ve ölçeklendirilmesinin nasıl yapılacağına dair talimat vermektedir."-->
+    <!-- device-width:web sayfasının genişliğini bağlanılan cihazın ekran genişliğine eşitlemektedir. -->
+    <!-- initial-scale:Tarayıcı web sayfasını yüklediği zaman ilk yakınlaştırma seviyesini 1 olarak ayarlamaktadır. -->
+    <!-- shrink-to-fit=no: web sayfasını ekrana sığdrımak için küçültme yapılmasını önlemektedir.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <title>Ekran Okuyucu Optimizasyonu</title>
+    
+  </head>
+  <body>
+    <h2 class="text-center">Ekran Okuyucu Optimizasyonu</h2>
+	
+    <a class="sr-only sr-only-focusable" href="#main">Ana İçeriğe Git</a>
+    <nav role='navigation'>
+      <div class="container">
+	<ul>
+	  <li><a href="#">Anasayfa<span class="sr-only">(Şu anki sayfa)</span></a></li>
+	  <li><a href="#">Hakkımızda</a></li>
+	  <li><a href="#">İletişim</a></li>
+	</ul>
+      </div>
+     </nav>
+
+   <main id="main" role="main">
+   <!-- Sayfa İçeriği -->
+   <div class="container">
+	<p class="bg-danger text-white p-3"><span class="sr-only">Dikkat:</span>Bu İşlemi Geri Almalısınız!</p>
+
+	<div class="bg-warning p-3">Aboneliğinizin Süresi dolmak üzeredir!
+	<button type="button" class="close" aria-label="Kapat">
+	<span aria-hidden="true">&times;</span>
+	</button>
+	</div> 
+    </div>
+   </main>   
+
+  </body>
+  </html>
